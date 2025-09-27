@@ -1,4 +1,7 @@
 # steam++(watt Toolkit)-hosts-permissions-fix-for-mac
+
+#### Readme (EN)(https://github.com/OthinusG/steamplusplus-host-permissions-fix-for-mac/blob/main/README_EN.md)｜CN
+
 ## 问题复现
 在macos上使用steam++（watt Toolkit）来加速steam是国内免费、快速的不二选择，也可以用来观看twitch直播，国外验证码平台也能被无翻墙支持。你甚至可以在某些极端时刻无vpn浏览github。其原理为修改host文件，在使用外网时经过steam++软件代理。然而，由于macos系统限制，每次启动steam++时必会遇到如下图所示hosts权限问题，需要使用sudo权限修改hosts：
 ![image](https://github.com/OthinusG/steamplusplus-host-permissions-fix-for-mac/blob/main/readmeimages/e0bcb6c6-5ccd-4e2b-a97d-1ac75af743ce.jpg)
