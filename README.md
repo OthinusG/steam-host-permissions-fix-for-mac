@@ -17,9 +17,9 @@ EOF
 open -a /Applications/Steam++.app
 exit
 ```
-其中[yourname]是macos账户名称，[yourpassword]是你的开机密码，[yourname]可以打开Macintosh HD/用户 文件夹看到：
+其中`[yourname]`是macos账户名称，`[yourpassword]`是你的开机密码，`[yourname]`可以打开Macintosh HD/用户 文件夹看到：
 ![image](https://github.com/OthinusG/steamplusplus-host-permissions-fix-for-mac/blob/main/readmeimages/040d79cc-479d-4014-8bff-80b03c014f0e.jpg)
-例如，我的账户名为xiaolin，开机密码为0000，则脚本如下：
+例如，我的账户名为`xiaolin`，开机密码为`0000`，则脚本如下：
 ```
 #!/bin/bash
 
@@ -32,7 +32,7 @@ EOF
 open -a /Applications/Steam++.app
 exit
 ```
-为了实现上述脚本，下载github上的hosts文件 ，或者拷贝一份自己系统的hosts文件（/etc/hosts）到用户根目录：如/Users/xiaolin。
+为了实现上述脚本，下载github上的hosts文件 ，或者拷贝一份自己系统的hosts文件（`/etc/hosts`）到用户根目录：如`/Users/xiaolin`。
 示例脚本已上传到github。
 
 ### 自动化app生成
