@@ -1,0 +1,22 @@
+##
+# Host Database
+#
+# localhost is used to configure the loopback interface
+# when the system is booting.  Do not change this entry.
+##
+127.0.0.1	localhost
+255.255.255.255	broadcasthost
+::1             localhost
+
+# Added by Yaagl
+0.0.0.0 uspider.yuanshen.com
+0.0.0.0 log-upload.mihoyo.com
+0.0.0.0 public-data-api.mihoyo.com
+0.0.0.0 log-upload-os.hoyoverse.com
+0.0.0.0 sg-public-data-api.hoyoverse.com
+0.0.0.0 overseauspider.yuanshen.com
+0.0.0.0 dispatchcnglobal.yuanshen.com
+0.0.0.0 globaldp-prod-cn01.juequling.com
+# End of section
+
+10.211.55.3    	windows-10.shared windows-10 #prl_hostonly shared
